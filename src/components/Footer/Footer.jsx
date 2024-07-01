@@ -8,9 +8,9 @@ import facebook from "../Assets/facebook.png"
 const Footer = () => {
   return (
     <div className='footer'>
-        <div className="footer_logo">
+        <div className="footer_logo" id='homepage'>
             <img src={logo} alt='' width={400}/>
-            <p>ShopEZ</p>
+            <p><a href='#homepage'>ShopEZ</a></p>
         </div>
         <ul className='footer-links'>
             <li>Company</li>

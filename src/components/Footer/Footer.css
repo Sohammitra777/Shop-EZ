@@ -5,7 +5,7 @@
     align-items: center;
     gap: 30px;
     margin-top: 0;
-    background-color: rgb(64, 125, 158);
+    background-color: rgba(2, 105, 161, 0.507);
     color: azure;
     border-top-left-radius: 75px;
     border-top-right-radius: 75px;
@@ -28,6 +28,16 @@
     font-weight: 700;
     text-shadow: 0px 0px 5px black, 0 0 25px blue, 0 0 5px darkblue;
     margin-right: 50px;
+
+}
+.footer_logo p a{
+    color: azure;
+    text-decoration: none;
+    cursor: context-menu;
+    scroll-behavior: auto;
+}
+#homepage{
+    scroll-behavior: auto;
 }
 
 .footer-links{
@@ -86,3 +96,4 @@
     height: 3px;
     background: white;
 }
+

@@ -12,16 +12,16 @@ const Navbar = () => {
 
 
   return (
-    <div className='navbar'>
+    <div className='navbar' id='homepage'>
         <div className='nav-logo'>
             <img src={logo} width={140} alt=''/>
             <p>ShopEZ</p>
         </div>
         <ul className='nav-menu'>
-            <li onClick={()=>{setMenu("Home")}}><Link to="/" style={{textDecoration:"none"}} >Home{menu==="Home"?<hr/>:<></>}</Link></li>
-            <li onClick={()=>{setMenu("Electronics")}}><Link to="/Electronics" style={{textDecoration:"none"}}>Electronics</Link> {menu==="Electronics"?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu("Fashion")}}><Link to="/Fashion" style={{textDecoration:"none"}}>Fashion</Link>{menu==="Fashion"?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu("Home & furnitures")}}><Link to="/Homeandfurnitures" style={{textDecoration:"none"}}>Home & furnitures </Link>{menu==="Home & furnitures"?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu("Home")}}><Link to="/" style={{textDecoration:"none",color:"black"}} >Home{menu==="Home"?<hr/>:<></>}</Link></li>
+            <li onClick={()=>{setMenu("Electronics")}}><Link to="/Electronics" style={{textDecoration:"none",color:"black"}}>Electronics</Link> {menu==="Electronics"?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu("Fashion")}}><Link to="/Fashion" style={{textDecoration:"none",color:"black"}}>Fashion</Link>{menu==="Fashion"?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu("Home & furnitures")}}><Link to="/Homeandfurnitures" style={{textDecoration:"none",color:"black"}}>Home & furnitures </Link>{menu==="Home & furnitures"?<hr/>:<></>}</li>
         </ul>
         <div className="nav-login-cart">
             <Link to="/Loginsignup" style={{textDecoration:"none"}}><button>Login</button></Link>
