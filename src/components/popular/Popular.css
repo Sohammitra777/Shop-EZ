@@ -8,9 +8,10 @@
 }
 
 .popular h1{
-    color: black;
-    font-size: 50px;
-    font-weight: 600;
+    color: rgba(0, 0, 0, 0.77);
+    font-size: 70px;
+    font-weight: 500;
+    text-shadow: 0px 0px 50px blue;
 }
 
 .popular hr{

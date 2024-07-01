@@ -8,6 +8,7 @@ import Homeandfurnitures from "./Pages/Homeandfurnitures"
 import Product from "./Pages/Product"
 import Cart from "./Pages/Cart"
 import Loginsignup from "./Pages/Loginsignup"
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -25,9 +26,8 @@ function App() {
           </Route>
           <Route path="/Cart" element={<Cart/>}/>
           <Route path="/Loginsignup" element={<Loginsignup/>}/>
-
-
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   );

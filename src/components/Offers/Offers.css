@@ -43,6 +43,9 @@
     cursor: pointer;
     border: 2px solid white;
 }
+.offers-right button:hover{
+    box-shadow: 0px 0px 45px 10px azure;
+}
 
 .offers-left{
     display: flex;

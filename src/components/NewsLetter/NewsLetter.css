@@ -10,6 +10,7 @@
     color: rgba(240, 255, 255, 0.942);
     gap: 30px;
     text-shadow: 6px 6px 10px black;
+    margin-bottom: 100px;
 }
 
 .newsletter h1{
@@ -54,12 +55,14 @@
     width: 210px;
     height: 70px;
     border-radius: 80px;
-    background-color: rgba(3, 0, 40, 0.726);
+    background-color: rgba(7, 0, 86, 0.726);
     color: azure;
     font-size: 20px;
     cursor: pointer;
+    border: 1px solid azure;
 }
 
 .newsletter div button:hover{
-    background-color: rgba(11, 0, 83, 0.53);
+    background-color: rgba(11, 0, 83, 0.808);
+    border: 1px solid azure;
 }
