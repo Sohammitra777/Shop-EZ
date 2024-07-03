@@ -1,0 +1,105 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(90deg,rgb(57, 105, 145), rgb(39, 65, 99));
+    margin-bottom: 100px;
+    margin-right: 00px;
+    height: 95vh;
+    width: 100%;
+}
+
+#logo{
+    margin-right: 200px;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 65px;
+    box-shadow: 1px 1px 10px 4px  black, 6px 6px 50px 5px rgba(89, 2, 136, 0.804);
+    
+}
+
+.login_box{
+    padding-top: 20px;
+    height: 370px;
+    width: 400px;
+    z-index: 1;
+    border-radius: 30px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 10px 10px rgb(255, 255, 255), 3px 3px 10px 10px rgba(89, 2, 136, 0.804);
+    background-color: rgba(0, 28, 84, 0.673);
+}
+
+.login_box:hover{
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 4px 4px 10px 10px rgb(187, 201, 210);
+    
+}
+
+.formm{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.labels{
+    margin-right: 20px;
+    font-size: 24px;
+    color: azure;
+    
+}
+input{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+
+
+.icons{
+    margin-right: 10px;
+    
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    font-weight: bolder;
+    color: azure;
+    text-shadow: 10px 10px 15px rgb(0, 0, 0);
+}
+
+#submit{
+    margin-top: 20px;
+    height: 60px;
+    width: 55%;
+    background-color: rgba(4, 127, 221, 0.596);
+    color: white;
+    border: 2px solid rgb(182, 219, 217);
+}
+
+#submit:hover{
+    background-color: rgb(24, 115, 194);
+    border: 2px solid white;
+}
+
+#signups{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+#signuplink{
+    color: rgb(45, 143, 143);
+}
+
+#img{
+    display: flex;
+    align-items: center;
+    border-radius: 55px;
+}
