@@ -22,11 +22,11 @@ const Navbar = () => {
                     <Link to="/Electronics" style={{ textDecoration: "none", color: "black" }}>Electronics</Link> {menu === "Electronics" ? <hr /> : <></>}
                 </li>
                 <li onClick={() => { setMenu("Fashion") }}>
-                    <Link to="/Fashion" style={{ textDecoration: "none", color: "black" }}>Fashion</Link>{menu === "Fashion" ? <hr /> : <></>}
+                    <Link style={{ textDecoration: "none", color: "black" }}>Fashion</Link>{menu === "Fashion" ? <hr /> : <></>}
                     <ul className='dropdown-menu'>
-                        <li><Link to="/Fashion/Men" style={{ textDecoration: "none", color: "azure" }}>Mens</Link></li>
-                        <li><Link to="/Fashion/Women" style={{ textDecoration: "none", color: "azure" }}>Womens</Link></li>
-                        <li><Link to="/Fashion/Kids" style={{ textDecoration: "none", color: "azure" }}>Kids</Link></li>
+                        <li><Link to="/Fashion/Mens" style={{ textDecoration: "none", color: "azure" }}>Mens</Link></li>{menu === "Mens" ? <hr /> : <></>}
+                        <li><Link to="/Fashion/Womens" style={{ textDecoration: "none", color: "azure" }}>Womens</Link></li>{menu === "Womens" ? <hr /> : <></>}
+                        <li><Link to="/Fashion/Kids" style={{ textDecoration: "none", color: "azure" }}>Kids</Link></li>{menu === "Kids" ? <hr /> : <></>}
                     </ul>
                 </li>
                 <li onClick={() => { setMenu("Home & furnitures") }}>

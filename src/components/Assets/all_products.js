@@ -24,27 +24,27 @@ import p23_img from "../Assets/p23_img.webp";
 import p24_img from "../Assets/p24_img.jpg";
 import p25_img from "../Assets/p25_img.jpeg";
 
-const fashionData = [
+const all_products = [
     // Mens category
-    { id: 1, name: "Men's Blue Denim Jacket", category: "mens", image:p1_img, new_price: 75.0, old_price: 100.0 },
-    { id: 2, name: "Men's Leather Boots", category: "mens", image: p2_img, new_price: 95.0, old_price: 130.0 },
-    { id: 3, name: "Men's Black Suit", category: "mens", image: p3_img, new_price: 250.0, old_price: 300.0 },
-    { id: 4, name: "Men's Graphic Tee", category: "mens", image: p4_img, new_price: 20.0, old_price: 30.0 },
-    { id: 5, name: "Men's Grey Hoodie", category: "mens", image: p5_img, new_price: 60.0, old_price: 80.0 },
+    { id: 1, name: "Men's Blue Denim Jacket", category: "Mens", image:p1_img, new_price: 75.0, old_price: 100.0 },
+    { id: 2, name: "Men's Leather Boots", category: "Mens", image: p2_img, new_price: 95.0, old_price: 130.0 },
+    { id: 3, name: "Men's Black Suit", category: "Mens", image: p3_img, new_price: 250.0, old_price: 300.0 },
+    { id: 4, name: "Men's Graphic Tee", category: "Mens", image: p4_img, new_price: 20.0, old_price: 30.0 },
+    { id: 5, name: "Men's Grey Hoodie", category: "Mens", image: p5_img, new_price: 60.0, old_price: 80.0 },
 
     // Womens category
-    { id: 6, name: "Women's Red Cocktail Dress", category: "womens", image: p6_img, new_price: 120.0, old_price: 150.0 },
-    { id: 7, name: "Women's Floral Blouse", category: "womens", image: p7_img, new_price: 55.0, old_price: 75.0 },
-    { id: 8, name: "Women's Running Shoes", category: "womens", image: p8_img, new_price: 80.0, old_price: 100.0 },
-    { id: 9, name: "Women's Black Handbag", category: "womens", image: p9_img, new_price: 90.0, old_price: 120.0 },
-    { id: 10, name: "Women's High Heels", category: "womens", image: p10_img, new_price: 85.0, old_price: 110.0 },
+    { id: 6, name: "Women's Red Cocktail Dress", category: "Womens", image: p6_img, new_price: 120.0, old_price: 150.0 },
+    { id: 7, name: "Women's Floral Blouse", category: "Womens", image: p7_img, new_price: 55.0, old_price: 75.0 },
+    { id: 8, name: "Women's Running Shoes", category: "Womens", image: p8_img, new_price: 80.0, old_price: 100.0 },
+    { id: 9, name: "Women's Black Handbag", category: "Womens", image: p9_img, new_price: 90.0, old_price: 120.0 },
+    { id: 10, name: "Women's High Heels", category: "Womens", image: p10_img, new_price: 85.0, old_price: 110.0 },
 
     // Kids category
-    { id: 11, name: "Kids' Green Raincoat", category: "kids", image: p11_img, new_price: 45.0, old_price: 60.0 },
-    { id: 12, name: "Kids' Cartoon T-Shirt", category: "kids", image: p12_img, new_price: 25.0, old_price: 35.0 },
-    { id: 13, name: "Kids' Striped Pajamas", category: "kids", image: p13_img, new_price: 30.0, old_price: 40.0 },
-    { id: 14, name: "Kids' Blue Jeans", category: "kids", image: p14_img, new_price: 35.0, old_price: 50.0 },
-    { id: 15, name: "Kids' Winter Coat", category: "kids", image: p15_img, new_price: 70.0, old_price: 90.0 },
+    { id: 11, name: "Kids' Green Raincoat", category: "Kids", image: p11_img, new_price: 45.0, old_price: 60.0 },
+    { id: 12, name: "Kids' Cartoon T-Shirt", category: "Kids", image: p12_img, new_price: 25.0, old_price: 35.0 },
+    { id: 13, name: "Kids' Striped Pajamas", category: "Kids", image: p13_img, new_price: 30.0, old_price: 40.0 },
+    { id: 14, name: "Kids' Blue Jeans", category: "Kids", image: p14_img, new_price: 35.0, old_price: 50.0 },
+    { id: 15, name: "Kids' Winter Coat", category: "Kids", image: p15_img, new_price: 70.0, old_price: 90.0 },
 
     // Home alliances category
     { id: 16, name: "Vacuum Cleaner", category: "home alliances", image: p16_img, new_price: 150.0, old_price: 200.0 },
@@ -61,4 +61,4 @@ const fashionData = [
     { id: 25, name: "Bed Frame", category: "furnitures", image: p25_img, new_price: 400.0, old_price: 550.0 }
 ];
 
-export default fashionData;
+export default all_products;
