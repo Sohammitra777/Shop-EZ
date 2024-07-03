@@ -1,0 +1,78 @@
+#banner{
+    display: block;
+    margin: 30px auto;
+    width: 82%;
+}
+
+.fashioncategory-indexsort{
+    display: flex;
+    margin: 0px 170px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(26, 0, 112, 0.644);
+    height: 60px;
+    padding: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-shadow: 0px 0px 50px rgb(255, 255, 255);
+}
+
+.fashioncategory-sort{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    border: 2px solid black;
+    height: 50px;
+    width: 150px;
+    color: azure;
+    gap: 10px;
+}
+
+.fashioncategory-sort:hover{
+    background-color: rgba(26, 0, 112, 0.521);
+    cursor: pointer;
+}
+
+
+
+.fashioncategory-indexsort p span{
+    font-weight: 600;
+    font-size: 40px;
+    padding-left: 100px;
+    color: azure;
+}
+
+.fashioncategory-products{
+    margin: 20px 170px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    row-gap: 80px;
+    background-color: rgba(145, 126, 209, 0.173);
+    padding-left: 35px;
+    padding-top: 20px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.fashioncategory-products img{
+    width: 250px;
+    height:250px;
+    border-radius: 15px;
+}
+
+.fashioncategory-loadmore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px auto;
+    width: 233px;
+    height: 69px;
+    border-radius: 75px;
+    background-color: rgba(18, 88, 167, 0.636);
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    color: azure;
+    text-shadow: 0px 0px 10px black;
+}
