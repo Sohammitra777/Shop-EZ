@@ -8,10 +8,12 @@ import facebook from "../Assets/facebook.png"
 const Footer = () => {
   return (
     <div className='footer'>
+
         <div className="footer_logo" id='homepage'>
-            <img src={logo} alt='' width={400}/>
+            <img src={logo} alt='' width={300}/>
             <p><a href='#homepage'>ShopEZ</a></p>
         </div>
+
         <ul className='footer-links'>
             <li>Company</li>
             <li>Products</li>
@@ -19,22 +21,24 @@ const Footer = () => {
             <li>About</li>
             <li>Contact</li>
         </ul>
-        <div className="footer-social-icons">
-          <div className="footer-icons-container">
-            <img src={insta} alt='' width={50}/>
-          </div>
-          <div className="footer-icons-container">
-            <img src={facebook} alt='' width={50}/>
-          </div>
-          <div className="footer-icons-container">
-            <img src={pinterest} alt='' width={40}/>
-          </div>
-          
-        </div>
+
+        <ul className="footer-social-icons">
+          <li>  
+            <img src={insta} alt='Instagram logo' width={70}/>
+          </li>
+          <li>
+            <img src={facebook} alt='facebook logo' width={70}/>
+          </li>
+          <li>
+            <img src={pinterest} alt='pinterest logo' width={45}/>
+          </li> 
+        </ul>
+
         <div className="footer-copyright">
             <hr/>
             <p>Copyright @2024 - All Right Reserved</p>
-          </div>
+        </div>
+
     </div>
   )
 }

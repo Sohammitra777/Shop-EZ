@@ -6,13 +6,13 @@ import Electronics from "./Pages/Electronics"
 import Homeandfurnitures from "./Pages/Homeandfurnitures"
 import Product from "./Pages/Product"
 import Cart from "./Pages/Cart"
-import Loginsignup from "./Pages/Loginsignup"
+import Loginsignup from "./Pages/LoginAndSignup/Loginsignup.jsx"
 import Footer from './components/Footer/Footer';
 import mens_banner from "./components/Assets/mens_banner.jpg"
 import womens_banner from "./components/Assets/womens_banner.jpg"
 import kids_banner from "./components/Assets/kids_banner.jpg"
-import Fashioncategory from './Pages/Fashioncategory';
-import Signin from './Pages/signin'
+import Fashioncategory from './Pages/Fashion/Fashioncategory.jsx';
+import Signin from './Pages/LoginAndSignup/signin.jsx'
 
 
 function App() {

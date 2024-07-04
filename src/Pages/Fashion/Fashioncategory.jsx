@@ -1,8 +1,8 @@
 // Fashioncategory.js
 import React, { useContext } from 'react';
-import "../Pages/CSS/ShopCategory.css";
-import { HomeContext } from "../Context/HomeContext";
-import Item from "../components/Item/item";
+import "./ShopCategory.css";
+import { HomeContext } from "../../Context/HomeContext";
+import Item from "../../components/Item/item";
 
 const Fashioncategory = (props) => {
   const { all_products } = useContext(HomeContext);

@@ -1,5 +1,5 @@
 import React from 'react';
-import './CSS/loginsignup.css'
+import './loginsignup.css'
 import { Link } from 'react-router-dom'
 const Loginsignup = () => {
   return (
@@ -7,7 +7,7 @@ const Loginsignup = () => {
       
       <div className="loginsignup" style={{}}>
           <div className="container">
-            <h1>Login</h1>
+            <h1>Sign Up</h1>
             <div className='loginsignupfields'>
           
               <span className="glyphicon glyphicon-user"></span>
@@ -20,7 +20,7 @@ const Loginsignup = () => {
             
           </div>
           <button className="submit" type="submit">Submit</button>
-          <p className='signup'>New user? <Link to="/signin" className='sign'>Sign Up</Link></p>
+          <p className='signup'>Already a user <Link to="/Loginsignup" className='sign'>Login</Link></p>
 
           </div>
           

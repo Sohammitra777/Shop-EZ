@@ -3,12 +3,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-    margin-top: 0;
-    background-color: rgba(2, 105, 161, 0.507);
+    margin-top: 5px;
+    background-color: black;
     color: azure;
-    border-top-left-radius: 75px;
-    border-top-right-radius: 75px;
+    
 }
 
 .footer_logo{
@@ -16,17 +14,14 @@
     display: flex;
     align-items: center;
     gap: 80px;
-    border-radius: 75px;
-}
-.footer_logo:hover{
-    box-shadow: 0px 0px 100px 5px white;
+    
+    
 }
 
 .footer_logo p{
     color: azure;
     font-size: 80px;
     font-weight: 700;
-    text-shadow: 0px 0px 5px black, 0 0 25px blue, 0 0 5px darkblue;
     margin-right: 50px;
 
 }
@@ -35,46 +30,52 @@
     text-decoration: none;
     cursor: context-menu;
     scroll-behavior: auto;
+
 }
+
+.footer_logo p a:hover{
+    transition: .5s;
+    color: blanchedalmond   
+}
+
+.footer_logo p a:active{
+    transition: .5s;
+    color: beige; 
+}
+
 #homepage{
     scroll-behavior: auto;
 }
 
 .footer-links{
-    margin-bottom: 0;
     display: flex;
-    list-style: none;
+    list-style: disc;
     gap: 60px;
-    font-size: 22px;
+    font-size: 30px;
     color: azure;
 }
 
 .footer-links li{
+    list-style-type: disc;
     cursor: pointer;
     margin-right: 10px;
 }
 .footer-links li:hover{
-    text-shadow: 0px 0px 10px blue;
+    color: brown;
+    transition: .2s;
 }
 
 .footer-social-icons{
     display: flex;
-    gap: 20px;
+    align-items: center;
+    margin: 30px;
+    gap: 150px;
+    cursor: pointer;
 }
 
-.footer-icons-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    padding-bottom: 6px;
-    background: linear-gradient(180deg, rgb(213, 197, 228),rgba(173, 172, 214, 0.634),rgb(147, 180, 194)) ;
-    border: 1px solid rgb(255, 255, 255);
-    box-shadow: 2px 2px 1000px 10px azure;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-
+.footer-social-icons li{
+    list-style-type: none;
+    
 }
 
 .footer-copyright{
