@@ -32,7 +32,12 @@ const Navbar = () => {
                 <li onClick={() => { setMenu("Home & furnitures") }}>
                     <Link to="/Homeandfurnitures" style={{ textDecoration: "none", color: "black" }}>Home & Furnitures</Link>{menu === "Home & furnitures" ? <hr /> : <></>}
                 </li>
+                <li onClick={() => { setMenu("MyAccount") }}>
+                    <Link to="/MyAccount" style={{ textDecoration: "none", color: "black" }}>MyAccount</Link>{menu === "MyAccount" ? <hr /> : <></>}
+                </li>
+                
             </ul>
+            
             <div className="nav-login-cart">
                 <Link to="/Loginsignup" style={{ textDecoration: "none" }}><button>Login</button></Link>
                 <Link to="/Cart" style={{ textDecoration: "none" }}>

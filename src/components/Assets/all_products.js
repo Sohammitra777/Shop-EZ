@@ -24,6 +24,12 @@ import p23_img from "../Assets/p23_img.webp";
 import p24_img from "../Assets/p24_img.jpg";
 import p25_img from "../Assets/p25_img.jpeg";
 
+import p26_img from "./product1.webp"
+import p27_img from "./product2.webp"
+import p28_img from "./product3.jpg"
+import p29_img from "./product4.webp"
+
+
 const all_products = [
     // Mens category
     { id: 1, name: "Men's Blue Denim Jacket", category: "Mens", image:p1_img, new_price: 75.0, old_price: 100.0 },
@@ -58,7 +64,41 @@ const all_products = [
     { id: 22, name: "Dining Table", category: "furnitures", image: p22_img, new_price: 300.0, old_price: 450.0 },
     { id: 23, name: "Office Chair", category: "furnitures", image: p23_img, new_price: 150.0, old_price: 200.0 },
     { id: 24, name: "Bookshelf", category: "furnitures", image: p24_img, new_price: 200.0, old_price: 280.0 },
-    { id: 25, name: "Bed Frame", category: "furnitures", image: p25_img, new_price: 400.0, old_price: 550.0 }
+    { id: 25, name: "Bed Frame", category: "furnitures", image: p25_img, new_price: 400.0, old_price: 550.0 },
+
+
+    {
+        id:26,
+        name:"Men's daily tshirt",
+        image:p26_img,
+        category: "Mens",
+        new_price:150.25,
+        old_price:250.50,
+    },
+    {
+        id:27,
+        name:"Unisex fittee",
+        image:p27_img,
+        category: "Mens",
+        new_price:50.25,
+        old_price:25.00,
+    },
+    {
+        id:28,
+        name:"Women's cool Tshirt with fabrication of pure cotton",
+        image:p28_img,
+        category: "women",
+        new_price:1399.00,
+        old_price:3500.00,
+    },
+    {
+        id:29,
+        name:"Mens white Tshirt",
+        image:p29_img,
+        category: "Mens",
+        new_price:3050.55,
+        old_price:5000.50,
+    },
 ];
 
 export default all_products;

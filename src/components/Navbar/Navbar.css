@@ -80,6 +80,10 @@
     gap: 45px;
 }
 
+.nav-login-cart li{
+    text-decoration: none;
+}
+
 .nav-login-cart button{
     width:157px;
     height: 58px;
