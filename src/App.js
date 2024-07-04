@@ -15,6 +15,8 @@ import Fashioncategory from './Pages/Fashion/Fashioncategory.jsx';
 import Signin from './Pages/LoginAndSignup/signin.jsx'
 
 
+
+
 function App() {
   return (
     <div>
@@ -33,7 +35,6 @@ function App() {
           <Route path="/Cart" element={<Cart/>}/>
           <Route path="/Loginsignup" element={<Loginsignup/>}/>
           <Route path="/signin" element={<Signin/>}/>
-          ro
         </Routes>
         <Footer/>
       </BrowserRouter>

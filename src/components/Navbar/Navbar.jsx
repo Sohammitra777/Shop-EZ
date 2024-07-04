@@ -14,9 +14,11 @@ const Navbar = () => {
                 <img src={logo} width={90} alt='logo' />
                 <p>SHOP-EZ</p>
             </div>
+
+            
             <ul className='nav-menu'>
                 <li onClick={() => { setMenu("Home") }}>
-                    <Link to="/" style={{ textDecoration: "none", color: "black" }}>Home{menu === "Home" ? <hr /> : <></>}</Link>
+                    <Link to="/" style={{ textDecoration: "none", color: "black"}}>Home{menu === "Home" ? <hr /> : <></>}</Link>
                 </li>
                 <li onClick={() => { setMenu("Electronics") }}>
                     <Link to="/Electronics" style={{ textDecoration: "none", color: "black" }}>Electronics</Link> {menu === "Electronics" ? <hr /> : <></>}
@@ -33,6 +35,8 @@ const Navbar = () => {
                     <Link to="/Homeandfurnitures" style={{ textDecoration: "none", color: "black" }}>Home & Furnitures</Link>{menu === "Home & furnitures" ? <hr /> : <></>}
                 </li>
             </ul>
+            
+
             <div className="nav-login-cart">
                 <Link to="/Loginsignup" style={{ textDecoration: "none" }}><button>Login</button></Link>
                 <Link to="/Cart" style={{ textDecoration: "none" }}>
