@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Footer.css"
-import logo from "../Assets/footer_logo.png"
-import insta from "../Assets/insta_logo.png"
-import facebook from "../Assets/facebook.png"
-import pinterest from "../Assets/pinterest.png"
+import logo from "../../Assets/footer_logo.png"
+import insta from "../../Assets/insta_logo.png"
+import facebook from "../../Assets/facebook.png"
+import pinterest from "../../Assets/pinterest.png"
 
 const Footer = () => {
   return (

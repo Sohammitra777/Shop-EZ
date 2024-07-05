@@ -2,11 +2,11 @@ import React, { useState, useRef, useEffect } from 'react';
 import './Electronics.css';
 
 // Importing the images
-import smartphoneImg from '../components/Assets/p26_img.jpg'; // Correct relative path
-import laptopImg from '../components/Assets/p29_img.jpg';
-import homeTheatreImg from '../components/Assets/p28_img.jpeg';
-import cameraImg from '../components/Assets/p30_img.jpg';
-import fullSizeImg from '../components/Assets/p31_img.png';
+import smartphoneImg from '../../components/Assets/p26_img.jpg'; // Correct relative path
+import laptopImg from '../../components/Assets/p29_img.jpg';
+import homeTheatreImg from '../../components/Assets/p28_img.jpeg';
+import cameraImg from '../../components/Assets/p30_img.jpg';
+import fullSizeImg from '../../components/Assets/p31_img.png';
 
 const Electronics = () => {
     const products = [

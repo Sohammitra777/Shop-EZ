@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Offers.css"
-import midnight_sale from "../Assets/midnight_sale.png"
+import midnight_sale from "../../Assets/midnight_sale.png"
 
 const Offers = () => {
   return (

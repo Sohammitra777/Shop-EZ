@@ -1,13 +1,13 @@
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
+import Navbar from './components/HomeComp/Navbar/Navbar.jsx';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Home from "./Pages/Home"
-import Electronics from "./Pages/Electronics"
+import Electronics from "./Pages/Electronics/Electronics.jsx"
 import Homeandfurnitures from "./Pages/Homeandfurnitures"
 import Product from "./Pages/Product"
 import Cart from "./Pages/Cart"
 import Loginsignup from "./Pages/LoginAndSignup/Loginsignup.jsx"
-import Footer from './components/Footer/Footer';
+import Footer from './components/HomeComp/Footer/Footer.jsx';
 import mens_banner from "./components/Assets/mens_banner.jpg"
 import womens_banner from "./components/Assets/womens_banner.jpg"
 import kids_banner from "./components/Assets/kids_banner.jpg"
