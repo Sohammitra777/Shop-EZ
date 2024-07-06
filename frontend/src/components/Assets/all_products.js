@@ -1,6 +1,6 @@
 import p1_img from "../Assets/p1_img.webp";
 import p2_img from "../Assets/p2_img.avif";
-import p3_img from "../Assets/p3_img.webp";
+import p3_img from "../Assets/p3_img.avif";
 import p4_img from "../Assets/p4_img.jpg";
 import p5_img from "../Assets/p5_img.jpg";
 import p6_img from "../Assets/p6_img.webp";
@@ -26,7 +26,7 @@ import p25_img from "../Assets/p25_img.jpeg";
 
 const all_products = [
     // Mens category
-    { id: 1, name: "Men's Blue Denim Jacket", category: "Mens", image:p1_img, new_price: 75.0, old_price: 100.0 },
+    { id: 1, name: "Men's Blue Denim Jacket", category: "Mens", image:p1_img, new_price:75.0, old_price: 100.0 },
     { id: 2, name: "Men's Leather Boots", category: "Mens", image: p2_img, new_price: 95.0, old_price: 130.0 },
     { id: 3, name: "Men's Black Suit", category: "Mens", image: p3_img, new_price: 250.0, old_price: 300.0 },
     { id: 4, name: "Men's Graphic Tee", category: "Mens", image: p4_img, new_price: 20.0, old_price: 30.0 },
