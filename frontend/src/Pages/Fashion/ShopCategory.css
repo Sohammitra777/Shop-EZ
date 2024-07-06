@@ -1,10 +1,18 @@
-#banner{
+/* ShopCategory.css */
+
+.home-category {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#banner {
     display: block;
     margin: 30px auto;
     width: 82%;
 }
 
-.fashioncategory-indexsort{
+.fashioncategory-indexsort {
     display: flex;
     margin: 0px 170px;
     justify-content: space-between;
@@ -17,7 +25,7 @@
     text-shadow: 0px 0px 50px rgb(255, 255, 255);
 }
 
-.fashioncategory-sort{
+.fashioncategory-sort {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,25 +37,24 @@
     gap: 10px;
 }
 
-.fashioncategory-sort:hover{
+.fashioncategory-sort:hover {
     background-color: rgba(26, 0, 112, 0.521);
     cursor: pointer;
 }
 
-
-
-.fashioncategory-indexsort p span{
+.fashioncategory-indexsort p span {
     font-weight: 600;
     font-size: 40px;
     padding-left: 100px;
     color: azure;
 }
 
-.fashioncategory-products{
-    margin: 20px 170px;
+.fashioncategory-products {
+    margin: 20px auto; /* Center the product grid */
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
-    row-gap: 80px;
+    grid-template-columns: repeat(4, 1fr); /* Four columns */
+    gap: 40px; /* Adjust gap between items */
+    justify-items: center; /* Center items horizontally */
     background-color: rgba(145, 126, 209, 0.173);
     padding-left: 35px;
     padding-top: 20px;
@@ -55,17 +62,53 @@
     border-bottom-right-radius: 25px;
 }
 
-.fashioncategory-products img{
-    width: 250px;
-    height:250px;
-    border-radius: 15px;
+.fashioncategory-products .item {
+    text-align: center; /* Center align content */
+    width: 100%; /* Ensure each item takes full width of its column */
+    max-width: 250px; /* Limit maximum width to prevent overflow */
 }
 
-.fashioncategory-loadmore{
+.item img {
+    width: 100%;
+    height: auto;
+    max-height: 250px; /* Limit maximum height to maintain aspect ratio */
+    border-radius: 15px;
+    object-fit: cover; /* Ensure images cover the container */
+}
+
+.item p {
+    margin: 10px 0; /* Adjust margin below the image */
+    text-align: center; /* Center align the price */
+}
+
+.item-prices {
+    display: flex;
+    justify-content: center; /* Center align prices */
+}
+
+.item-price-new {
+    color: rgb(31, 162, 167);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.item-price-old {
+    color: rgb(0, 59, 82);
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.item:hover {
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+
+.fashioncategory-loadmore {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 150px auto;
+    margin: 50px auto; /* Adjust margin */
     width: 233px;
     height: 69px;
     border-radius: 75px;
