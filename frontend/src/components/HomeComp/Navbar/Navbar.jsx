@@ -15,7 +15,9 @@ const Navbar = () => {
         <div className='navbar' id='homepage'>
             <div className='nav-logo'>
                 <img src={logo} width={90} alt='logo' />
-                <p>SHOP-EZ</p>
+                <p onClick={() => { setMenu("Home") }}>
+                    <Link to="/" className='title'>Shop-EZ</Link>
+                </p>
             </div>
 
             

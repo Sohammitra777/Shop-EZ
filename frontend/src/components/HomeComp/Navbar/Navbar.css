@@ -30,6 +30,11 @@
   margin-top: 15px;
 }
 
+.title{
+  text-decoration: none;
+  color: black;
+}
+
 
 .nav-menu{
   display: flex;
