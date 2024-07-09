@@ -1,8 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Add this import if you're using Link
-import "./Item.css";
+import { Link } from 'react-router-dom';
+import './Item.css';
 
-const Item = ({ id, name, image, new_price, old_price, onMouseEnter, onMouseMove, onMouseLeave }) => {
+const Item = (props) => {
+  const { id, image, name, onMouseEnter, onMouseMove, onMouseLeave, new_price, old_price } = props;
+
   return (
     <div className="item">
       <Link to={`/product/${id}`}>
