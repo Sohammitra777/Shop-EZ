@@ -1,172 +1,170 @@
 .navbar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 16px;
-    box-shadow: 0px 7px;
-    height: 80%;
-    width: 97.9%;
-    background-color: antiquewhite ;
-    backdrop-filter: blur(10px);
-    margin-bottom: 2px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 16px;
+  box-shadow: 0px 7px;
+  height: 80%;
+  width: 97.9%;
+  background-color: rgb(255, 250, 243) ;
+  backdrop-filter: blur(10px);
+  margin-bottom: 2px;
 }
 
 .nav-logo{
-    display: flex;
-    align-self: center;
-    gap: 15px;
+  display: flex;
+  align-self: center;
+  gap: 15px;
 }
 
 .nav-logo img{
-    border-radius: 20%;
+  border-radius: 20%;
 }
 
 
 .nav-logo p{
-    align-items: center;
-    color: rgb(0, 0, 0);
-    font-size: 40px;
-    font-weight: bold;
-    margin-top: 15px;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.title{
+  text-decoration: none;
+  color: black;
 }
 
 
 .nav-menu{
   display: flex;
-  font-size: 30px;
-  
+  font-size: 30px; 
 }
 
 .nav-menu li{
-  display: flex;
-  font-size: 30px;
+  font-size: 22px;
   margin: 15px;
-  font-weight: 600;
-  
+  font-weight: 700;
+}
+
+.nav-menu li hr{
+  border: 2px solid rgba(255, 0, 0, 0.748);
+  border-radius: 75px;
 }
 
 
 
 .nav-login-cart{
-    display: flex;
-    align-items: center;
-    gap: 45px;
+  display: flex;
+  align-items: center;
+  gap: 45px;
 }
 
 .nav-login-cart button{
-    width:157px;
-    height: 58px;
-    outline: none;
-    border: 1px solid black;
-    border-radius: 75px;
-    color:grey;
-    font-size: 20px;
-    font-weight: 500;
-    background: white;
-    cursor: pointer;
+  width:157px;
+  height: 58px;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 75px;
+  color:grey;
+  font-size: 20px;
+  font-weight: 500;
+  background: white;
+  cursor: pointer;
 }
 
 .nav-login-cart button:active{
-    background:rgb(219, 223, 223) ;
+  background:rgb(219, 223, 223) ;
 }
 
 
 .nav-cart-count{
-    width: 22px;
-    height: 22px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -22px;
-    margin-right: -55px;
-    border-radius: 14px;
-    background-color: red;
-    color: white;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -22px;
+  margin-right: -55px;
+  border-radius: 14px;
+  background-color: red;
+  color: white;
 }
 
 .cart{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
 }
 
 
 
 .nav-menu {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    position: relative;
-  }
-  
-  .nav-menu li {
-    position: relative;
-    gap: 8px;
-  }
-  
-.nav-menu li:hover .dropdown-menu {
-    background-color: black;
-    display: block;
-    align-items: center;
-    justify-content: center;
-    transition: .3s
-
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  position: relative;
 }
   
-  .dropdown-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: white;
-    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
-    z-index: 1;
-    min-width: 160px;
-    padding: 0;
-    margin: 0;
-  }
+.nav-menu li {
+  position: relative;
+  gap: 8px;
+}
   
-  .dropdown-menu li {
-    padding: 8px;
-
-  }
+.nav-menu li:hover .dropdown-menu {
+  background-color: black;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  transition: .3s
+}
   
-  .dropdown-menu li:hover {
-    background-color:transparent;
-    color: azure;
-    border-radius: 30px;
-  }
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  min-width: 160px;
+  padding: 0;
+  margin: 0;
+}
+  
+.dropdown-menu li {
+  padding: 8px;
+}
+ 
+.dropdown-menu li:hover {
+  background-color:transparent;
+  color: azure;
+  border-radius: 30px;
+}
 
-  .nav-login-cart button{
+.nav-login-cart button{
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  background-color: beige;
+}
 
-    font-weight: bold;
-    font-size: 30px;
-    color: black;
-    background-color: beige;
-    
-
-  }
-  .nav-login-cart button:hover{
-
-    animation-duration: 500ms;
-    font-weight: bold;
-    font-size: 30px;
-    color: beige;
-    background-color: black;
-    transition: .8s
-
-  }
-  .nav-login-cart button:active{
-
-    font-weight: bold;
-    font-size: 30px;
-    color: black;
-    background-color: beige;
-    transition: none;
-    
-
-  }
+.nav-login-cart button:hover{
+  animation-duration: 500ms;
+  font-weight: bold;
+  font-size: 30px;
+  color: beige;
+  background-color: black;
+  transition: .8s
+}
+.nav-login-cart button:active{
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  background-color: beige;
+  transition: none;   
+}
 
 
 
