@@ -29,6 +29,6 @@
 }
 
 .item:hover {
-    transform: scale(1.05);
+    transform: scale(5);
     transition: 0.6s;
 }

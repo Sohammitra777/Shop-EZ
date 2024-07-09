@@ -15,7 +15,9 @@ const Navbar = () => {
         <div className='navbar' id='homepage'>
             <div className='nav-logo'>
                 <img src={logo} width={90} alt='logo' />
-                <p>SHOP-EZ</p>
+                <p onClick={() => { setMenu("Home") }}>
+                    <Link to="/" className='title'>Shop-EZ</Link>
+                </p>
             </div>
 
             
@@ -35,11 +37,13 @@ const Navbar = () => {
                     </ul>
                 </li>
                 <li onClick={() => { setMenu("Home & furnitures") }}>
-                    <Link to="/Homeandfurnitures" style={{ textDecoration: "none", color: "black" }}>Home & Furnitures</Link>{menu === "Home & furnitures" ? <hr /> : <></>}
+                    <Link to="/Homeandfurnitures" style={{ textDecoration: "none", color: "black" }}>Furnitures</Link>{menu === "Home & furnitures" ? <hr /> : <></>}
+                </li>
+                <li onClick={() => { setMenu("MyAccount") }}>
+                    <Link to="/MyAccount" style={{ textDecoration: "none", color: "black" }}>MyAccount</Link>{menu === "MyAccount" ? <hr /> : <></>}
                 </li>
             </ul>
             
-
             <div className="nav-login-cart">
                 <Link to="/Loginsignup" style={{ textDecoration: "none" }}><button>Login</button></Link>
                 <Link to="/Cart" style={{ textDecoration: "none" }}>

@@ -5,11 +5,11 @@ import Item from "../../HomeComp/Item/item"
 const Popular = () => {
   return (
     <div className='popular'>
-      <h1>Deals with Popular</h1>
+      <h1>Popular Deals</h1>
       <hr/>
       <div className="popular-item">
         {data_product.map((item, i) => {
-            return <Item key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price}/>
+            return <Item key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price} />
         })}
       </div>
     </div>
