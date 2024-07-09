@@ -1,18 +1,28 @@
 import React from 'react';
-import "./Item.css";
-import {Link} from "react-router-dom"
+import { Link } from 'react-router-dom';
+import './Item.css';
 
 const Item = (props) => {
+  const { id, image, name, onMouseEnter, onMouseMove, onMouseLeave, new_price, old_price } = props;
+
   return (
-    <div>
-      <Link to={`/product/${props.id}`}><img src={props.image} alt=''/></Link>
-      <p>{props.name}</p>
+    <div className="item">
+      <Link to={`/product/${id}`}>
+        <img 
+          src={image} 
+          alt={name} 
+          onMouseEnter={onMouseEnter} 
+          onMouseMove={onMouseMove} 
+          onMouseLeave={onMouseLeave}
+        />
+      </Link>
+      <p>{name}</p>
       <div className='item-prices'>
         <div className="item-price-new">
-          {props.new_price}
+          {new_price}
         </div>
         <div className="item-price-old">
-          {props.old_price}
+          {old_price}
         </div>
       </div>
     </div>
@@ -20,4 +30,3 @@ const Item = (props) => {
 };
 
 export default Item;
-
