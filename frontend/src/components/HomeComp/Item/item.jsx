@@ -1,22 +1,20 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Add this import if you're using Link
 import "./Item.css";
 
 const Item = ({ id, name, image, new_price, old_price, onMouseEnter, onMouseMove, onMouseLeave }) => {
   return (
     <div className="item">
-<<<<<<< Updated upstream
-      <img 
-        src={image} 
-        alt={name} 
-        onMouseEnter={onMouseEnter} 
-        onMouseMove={onMouseMove} 
-        onMouseLeave={onMouseLeave}
-      />
+      <Link to={`/product/${id}`}>
+        <img 
+          src={image} 
+          alt={name} 
+          onMouseEnter={onMouseEnter} 
+          onMouseMove={onMouseMove} 
+          onMouseLeave={onMouseLeave}
+        />
+      </Link>
       <p>{name}</p>
-=======
-      <Link to={`/product/${props.id}`}><img src={props.image} alt={props.name} /></Link>
-      <p>{props.name}</p>
->>>>>>> Stashed changes
       <div className='item-prices'>
         <div className="item-price-new">
           {new_price}
@@ -30,5 +28,3 @@ const Item = ({ id, name, image, new_price, old_price, onMouseEnter, onMouseMove
 };
 
 export default Item;
-
-
