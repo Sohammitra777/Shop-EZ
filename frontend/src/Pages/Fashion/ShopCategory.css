@@ -9,15 +9,16 @@
 #banner {
     display: block;
     margin: 30px auto;
-    width: 82%;
+    width: 89%;
+    height: 600px;
 }
 
 .fashioncategory-indexsort {
     display: flex;
-    margin: 0px 170px;
+    margin: 20px auto;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(26, 0, 112, 0.644);
+    background-color: rgb(14, 0, 59);
     height: 60px;
     padding: 10px;
     border-top-left-radius: 25px;
@@ -30,16 +31,18 @@
     align-items: center;
     justify-content: center;
     border-radius: 40px;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     height: 50px;
     width: 150px;
     color: azure;
     gap: 10px;
+    background-color: rgb(13, 0, 194);
 }
 
 .fashioncategory-sort:hover {
     background-color: rgba(26, 0, 112, 0.521);
     cursor: pointer;
+    box-shadow: 0px 0px 10px 1px white;
 }
 
 .fashioncategory-indexsort p span {
@@ -60,12 +63,19 @@
     padding-top: 20px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    padding-bottom: 20px;
 }
 
 .fashioncategory-products .item {
     text-align: center; /* Center align content */
     width: 100%; /* Ensure each item takes full width of its column */
     max-width: 250px; /* Limit maximum width to prevent overflow */
+}
+
+.fashioncategory-products img{
+    width: 250px;
+    height:250px;
+    border-radius: 15px;
 }
 
 .item img {
@@ -119,3 +129,12 @@
     color: azure;
     text-shadow: 0px 0px 10px black;
 }
+
+
+.each{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 0px black;
+}
+

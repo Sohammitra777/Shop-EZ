@@ -33,6 +33,8 @@ const Fashioncategory = (props) => {
     setMagnifierStyle({ display: 'none' });
   };
 
+  
+
   return (
     <div className='home-category'>
       <img src={props.banner} alt='Banner' id='banner' />
@@ -48,7 +50,7 @@ const Fashioncategory = (props) => {
         {all_products.map((item, i) => {
           if (props.category === item.category) {
             return (
-              <div key={i}>
+              <div key={i} className='each'>
                 <Item 
                   id={item.id} 
                   name={item.name} 
