@@ -46,19 +46,19 @@ const all_products = [
     { id: 14, name: "Kids' Blue Jeans", category: "Kids", image: p14_img, new_price: 35.0, old_price: 50.0 },
     { id: 15, name: "Kids' Winter Coat", category: "Kids", image: p15_img, new_price: 70.0, old_price: 90.0 },
 
-    // Home alliances category
-    { id: 16, name: "Vacuum Cleaner", category: "home alliances", image: p16_img, new_price: 150.0, old_price: 200.0 },
-    { id: 17, name: "Microwave Oven", category: "home alliances", image: p17_img, new_price: 100.0, old_price: 130.0 },
-    { id: 18, name: "Air Purifier", category: "home alliances", image: p18_img, new_price: 120.0, old_price: 160.0 },
-    { id: 19, name: "Blender", category: "home alliances", image: p19_img, new_price: 50.0, old_price: 70.0 },
-    { id: 20, name: "Coffee Maker", category: "home alliances", image: p20_img, new_price: 80.0, old_price: 100.0 },
+    // Electronics category
+    { id: 16, name: "Vacuum Cleaner", category: "Electronics", image: p16_img, new_price: 150.0, old_price: 200.0 },
+    { id: 17, name: "Microwave Oven", category: "Electronics", image: p17_img, new_price: 100.0, old_price: 130.0 },
+    { id: 18, name: "Air Purifier", category: "Electronics", image: p18_img, new_price: 120.0, old_price: 160.0 },
+    { id: 19, name: "Blender", category: "Electronics", image: p19_img, new_price: 50.0, old_price: 70.0 },
+    { id: 20, name: "Coffee Maker", category: "Electronics", image: p20_img, new_price: 80.0, old_price: 100.0 },
 
     // Furnitures category
-    { id: 21, name: "Sofa Set", category: "furnitures", image: p21_img, new_price: 500.0, old_price: 700.0 },
-    { id: 22, name: "Dining Table", category: "furnitures", image: p22_img, new_price: 300.0, old_price: 450.0 },
-    { id: 23, name: "Office Chair", category: "furnitures", image: p23_img, new_price: 150.0, old_price: 200.0 },
-    { id: 24, name: "Bookshelf", category: "furnitures", image: p24_img, new_price: 200.0, old_price: 280.0 },
-    { id: 25, name: "Bed Frame", category: "furnitures", image: p25_img, new_price: 400.0, old_price: 550.0 }
+    { id: 21, name: "Sofa Set", category: "Furnitures", image: p21_img, new_price: 500.0, old_price: 700.0 },
+    { id: 22, name: "Dining Table", category: "Furnitures", image: p22_img, new_price: 300.0, old_price: 450.0 },
+    { id: 23, name: "Office Chair", category: "Furnitures", image: p23_img, new_price: 150.0, old_price: 200.0 },
+    { id: 24, name: "Bookshelf", category: "Furnitures", image: p24_img, new_price: 200.0, old_price: 280.0 },
+    { id: 25, name: "Bed Frame", category: "Furnitures", image: p25_img, new_price: 400.0, old_price: 550.0 }
 ];
 
 export default all_products;
