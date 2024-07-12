@@ -143,3 +143,27 @@
     box-shadow: 0px 0px 5px 0px black;
 }
 
+/* Add these styles for the dropdown */
+.dropdown {
+    position: absolute;
+    background-color: rgb(8, 101, 147);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 200px;
+  }
+  
+  .dropdown div {
+    padding: 12px 16px;
+    cursor: pointer;
+  }
+  
+  .dropdown div:hover {
+    background-color: #270788;
+  }
+  
+  /* Additional styles for other elements */
+  .fashioncategory-sort {
+    cursor: pointer;
+    position: relative;
+  }
+  
