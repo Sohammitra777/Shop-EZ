@@ -17,6 +17,7 @@ import Furniture_banner from "./components/Assets/furniture_fullsize.png"
 
 
 
+
 function App() {
   return (
     <div>
@@ -34,7 +35,7 @@ function App() {
           </Route>
           <Route path="/Cart" element={<Cart/>}/>
           <Route path="/Loginsignup" element={<Loginsignup/>}/>
-          <Route path="/signin" element={<Signin/>}/>
+          
         </Routes>
         <Footer/>
       </BrowserRouter>
