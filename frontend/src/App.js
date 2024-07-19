@@ -10,7 +10,6 @@ import mens_banner from "./components/Assets/mens_banner.jpg"
 import womens_banner from "./components/Assets/womens_banner.jpg"
 import kids_banner from "./components/Assets/kids_banner.jpg"
 import Fashioncategory from './Pages/Fashion/Fashioncategory.jsx';
-import Signin from './Pages/LoginAndSignup/Loginsignup.jsx';
 import electronics_banner from "./components/Assets/p31_img.png"
 import Furniture_banner from "./components/Assets/furniture_fullsize.png"
 
