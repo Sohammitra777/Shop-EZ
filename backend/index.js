@@ -88,7 +88,7 @@ else{
 
 
 //Database connectio with mongo DB
-mongoose.connect("mongodb+srv://shopezdev:eIuRLShLGvtFd08E@cluster0.aml2wwr.mongodb.net/Shop-EZ/Login"
+mongoose.connect("mongodb+srv://aarshjain2022:aarshjain@cluster0.1tozto2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 )
 
 
